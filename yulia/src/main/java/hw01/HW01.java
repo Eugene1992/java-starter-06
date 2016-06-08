@@ -60,9 +60,53 @@ public class HW01 {
         int i4 = (int)((s1/s4)*(b5/b));
         System.out.println(i4);
 
+        /* Поменять значения двух целочисленных переменных используя третью */
+
+        int a = 2;
+        int f = 4;
+        int c = a;
+        a = f;
+        f = c;
+        System.out.println(f);
+
+        /* Поменять значения двух переменных без использования третей */
+
+        a = a + f;
+        a = a - f;
+        f = a - f;
+        System.out.println(a);
+
+        /* Задачка */
+
+        int g = 127;
+        int g0;
+        int g1;
+        int g2;
+        int g3;
+        int g4;
+        int g5;
+        int g6;
+        int g7;
+
+        g0 = g % 2;
+        g = g / 2;
+        g1 = g % 2;
+        g = g / 2;
+        g2 = g % 2;
+        g = g /2;
+        g3 = g % 2;
+        g = g / 2;
+        g4 = g % 2;
+        g = g / 2;
+        g5 = g % 2;
+        g = g / 2;
+        g6 = g % 2;
+        g = g / 2;
+        g7 = g % 2;
+        g = g / 2;
 
 
-
+        System.out.println(g7+""+g6+""+g5+""+g4+""+g3+""+g2+""+g1+""+g0);
 
     }
 }
