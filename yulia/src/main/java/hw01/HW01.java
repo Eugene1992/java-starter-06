@@ -83,10 +83,6 @@ public class HW01 {
         int g1;
         int g2;
         int g3;
-        int g4;
-        int g5;
-        int g6;
-        int g7;
 
         g0 = g % 2;
         g = g / 2;
@@ -96,18 +92,8 @@ public class HW01 {
         g = g /2;
         g3 = g % 2;
         g = g / 2;
-        g4 = g % 2;
-        g = g / 2;
-        g5 = g % 2;
-        g = g / 2;
-        g5 = g % 2;
-        g = g / 2;
-        g6 = g % 2;
-        g = g / 2;
-        g7 = g % 2;
-        g = g / 2;
 
-        System.out.println(g0+""+g1+""+g2+""+g3+""+g4+""+g5+""+g6+""+g7);
+        System.out.println(g0+""+g1+""+g2+""+g3);
 
     }
 }
