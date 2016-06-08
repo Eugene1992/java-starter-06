@@ -27,9 +27,12 @@ public class hw2_Irina {
 
         if ( (b1 - b) > (b -b2))
         {
-            System.out.println("9.5");
+            System.out.println(b2);
         }
-
+         else
+        {
+            System.out.println(b1);
+        }
         /*Задано три переменных, найти и вывести на экран переменную с максимальным значением
         (значения всех переменных разные).*/
 
