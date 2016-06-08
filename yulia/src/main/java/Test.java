@@ -4,3 +4,5 @@ public class Test {
         System.out.println("Hello Yulia!");
     }
 }
+/* начало и конец комментария */
+/* пушить - новое слово в словаре */
