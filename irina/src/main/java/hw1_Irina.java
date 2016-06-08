@@ -46,44 +46,50 @@ public class hw1_Irina {
 
         // 9. Поменять значения двух целочисленных переменных используя третью
         int p = 6, p1 = 8, p2 = 10;
-        p += p2;
-        p1 *= p2;
+        p2 = p; //6
+        p = p1; //8
+        p1 = p2;
         System.out.println(p);
         System.out.println(p1);
 
         // 10. Поменять значения двух переменных без использования третей
-        byte s1 = 20, s2 = 50;
-        s1 = ++s1;
-        s2 = --s2;
+        int s1 = 20, s2 = 2;
+        s1 = s1 / 10;
+        s2 = s2 * 10;
         System.out.println(s1);
         System.out.println(s2);
 
         /*---------------------------------------------------- BONUS -------------------------------------------------------------
                 Дано число от 0 до 127 в десятичной системе исчисления. Написать программу, которая переводит данное число в двоичную
         систему исчисления и выводит в консоль. Запрещается использовать циклы (for, while и т.д.) или условия(if)! */
-        /*double w, w1, w2, w3, w4, w5, w6, t = 120,  t1, t2, t3, t4, t5, t6, t7;
-        t1 = t % 2;
-        w = t1 >= 1 ? 0 :1;
-        t2 = t1 % 2;
-        w1 = t2 >= 1 ? 0 :1;
-        t3 = t2 % 2;
-        w2 = t3 >= 1 ? 0 :1;
-        t4 = t3 % 2;
-        w3 = t4 >= 1 ? 0 :1;
-        t5 = t4 % 2;
-        w4 = t5 >= 1 ? 0 :1;
-        t6 = t5 % 2;
-        w5 = t6 >= 1 ? 0 :1;
-        t7 = t6 % 2;
-        w6 = t7 >= 1 ? 0 :1;
 
-        System.out.print(w);
-        System.out.print(w1);
-        System.out.print(w2);
-        System.out.print(w3);
-        System.out.print(w4);
-        System.out.print(w5);
-        System.out.print(w6);*/
+        int t = 120, t0 = 0, t1 = 0, t2 = 0, t3 = 0, t4 = 0, t5 = 0, t6 = 0, t7 = 0;
+
+        t0 = t % 2;
+        t = t / 2;
+        t1 = t % 2;
+        t = t / 2;
+        t2 = t % 2;
+        t = t / 2;
+        t3 = t % 2;
+        t = t / 2;
+        t4 = t % 2;
+        t = t / 2;
+        t5 = t % 2;
+        t = t / 2;
+        t6 = t % 2;
+        t = t / 2;
+        t7 = t % 2;
+        t = t / 2;
+
+        System.out.print(t7);
+        System.out.print(t6);
+        System.out.print(t5);
+        System.out.print(t4);
+        System.out.print(t3);
+        System.out.print(t2);
+        System.out.print(t1);
+        System.out.print(t0);
 
 
 
