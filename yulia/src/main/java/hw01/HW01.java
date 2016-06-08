@@ -78,7 +78,7 @@ public class HW01 {
 
         /* Задачка */
 
-        int g = 9;
+        int g = 4;
         int g0;
         int g1;
         int g2;
@@ -93,7 +93,7 @@ public class HW01 {
         g3 = g % 2;
         g = g / 2;
 
-        System.out.println(g0+""+g1+""+g2+""+g3);
+        System.out.println(g3+""+g2+""+g1+""+g0);
 
     }
 }
