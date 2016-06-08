@@ -78,11 +78,12 @@ public class HW01 {
 
         /* Задачка */
 
-        int g = 4;
+        int g = 16;
         int g0;
         int g1;
         int g2;
         int g3;
+        int g4;
 
         g0 = g % 2;
         g = g / 2;
@@ -92,8 +93,10 @@ public class HW01 {
         g = g /2;
         g3 = g % 2;
         g = g / 2;
+        g4 = g % 2;
+        g = g / 2;
 
-        System.out.println(g3+""+g2+""+g1+""+g0);
+        System.out.println(g4+""+g3+""+g2+""+g1+""+g0);
 
     }
 }
