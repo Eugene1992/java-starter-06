@@ -4,7 +4,7 @@ package hw02;
  * Created by Shpakovski on 09.06.2016.
  */
 public class hw02 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         /* Задание 2
         Создать программу, проверяющую и сообщающую на экран, является ли  целое число, чётным либо нечётным. */
 
@@ -13,8 +13,7 @@ public class hw02 {
 
         if ((a % 2) == 0) {
             System.out.println("Число 123 - " + "четное" + "\n");
-        }
-        else {
+        } else {
             System.out.println("Число 123 - " + "нечетное" + "\n");
         }
 
@@ -25,10 +24,9 @@ public class hw02 {
         int b = 100;
         int c = 111;
 
-        if ((a - c)  >= c){
+        if ((a - c) >= c) {
             System.out.println("\n" + "Задание 3:" + "\n" + "число 123 ближе к числу 111" + "\n");
-        }
-        else {
+        } else {
 
             System.out.println("\n" + "Задание 3:" + "\n" + "число 100 ближе к числу 111" + "\n");
         }
@@ -47,11 +45,9 @@ public class hw02 {
 
         if (d > e && d > f) {
             System.out.println("maxValue = " + d + "\n");
-        }
-        else if  (e > d && e > f){
+        } else if (e > d && e > f) {
             System.out.println("maxValue = " + e + "\n");
-        }
-        else {
+        } else {
             System.out.println("maxValue = " + f + "\n");
         }
 
@@ -59,15 +55,25 @@ public class hw02 {
         Задано четыре переменных, найти и вывести на экран вторую по величине. */
 
         int s, x, y, z;
-        s = 10;
-        x = 11;
-        y = 12;
-        z = 13;
+        s = 100;
+        x = 15;
+        y = 228;
+        z = 67;
 
         System.out.println("Задание5:" + "\n");
 
-        if (s > x ) {}
-
+        if ((s > x && s < y && s < z) || (s < x && s > y && s < z) || (s < x && s < y && s > z)) {
+            System.out.println("secondValue = s = " + s);
+        }
+        if ((x > s && x < y && x < z) || (x < s && x > y && x < z) || (x < s && x < y && x > z)) {
+            System.out.println("secondValue = x = " + x);
+        }
+        if ((y > s && y < x && y < z) || (y < s && y > x && y < z) || (y < s && y < x && y > z)) {
+            System.out.println("secondValue = y = " + y);
+        }
+        if ((z > s && z < x && z < y) || (z < s && z > x && z < y) || (z < s && z < x && z > y)) {
+            System.out.println("secondValue = z = " + z);
+        }
 
     }
 }
