@@ -43,6 +43,7 @@ public class Calculator {
         switch(ch){
             case '-':
                 System.out.println("result =" + (x - y));
+
         }
 
 
