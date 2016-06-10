@@ -1,11 +1,11 @@
-package HW03;
+package hw03;
 
 import java.util.Scanner;
 
 /**
  * Created by Shpakovski on 09.06.2016.
  */
-public class hw03 {
+public class HW03 {
     public static void main(String [] args) {
         Scanner scann = new Scanner(System.in);
 
