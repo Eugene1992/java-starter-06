@@ -10,22 +10,28 @@ public class Classwork1 {
 
         for (int artem = 0; artem < 100; artem++){
             if (artem % 3 == 0) {
-                System.out.println(artem + " ");
+                System.out.print(artem + " ");
             }
         }
+
+        System.out.println();
 
         int i = 0;
         while (i <100) {
             if (i % 3 ==0) {
-                System.out.println(i + " ");
+                System.out.print(i + " ");
             }
             i++;
-
-            System.out.println();
-             int k = 0;
-            do {
-                k++;
-            }while (k<100);
         }
+
+        System.out.println();
+
+        int k = 0;
+        do {
+            if (k % 3 == 0){
+                System.out.print(k + " ");
+            }
+            k++;
+        }while (k<100);
     }
 }
