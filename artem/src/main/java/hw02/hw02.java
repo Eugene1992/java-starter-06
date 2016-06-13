@@ -55,25 +55,45 @@ public class hw02 {
         Задано четыре переменных, найти и вывести на экран вторую по величине. */
 
         int s, x, y, z;
-        s = 29;
-        x = 30;
-        y = 24;
-        z = 23;
+        s = 1000;
+        x = 434;
+        y = 10;
+        z = 101;
 
         System.out.println("Задание5:" + "\n");
 
-        if ((s > x && s > y && s < z) || (s > x && s < y && s > z) || (s < x && s < y && s > z)) {
+/*       if ((s < x && s < y && s > z) || (s < x && s > y && s < z) || (s > x && s < y && s < z)) {
             System.out.println("secondValue = s = " + s);
         }
-        if ((x > s && x > y && x < z) || (x > s && x < y && x > z) || (x < s && x < y && x > z)) {
+        if ((x < s && x < y && x > z) || (x < s && x > y && x < z) || (x > s && x < y && x < z)) {
             System.out.println("secondValue = x = " + x);
         }
-        if ((y > s && y > x && y < z) || (y > s && y < x && y > z) || (y < s && y < x && y > z)) {
+        if ((y < s && y < x && y > z) || (y < s && y > x && y < z) || (y > s && y < x && y < z)) {
             System.out.println("secondValue = y = " + y);
         }
-        if ((z > s && z > x && z < y) || (z > s && z < x && z > y) || (z < s && z < x && z > y)) {
+        if ((z < s && z < x && z > y) || (z < s && z > x && z < y) || (z > s && z < x && z < y)) {
             System.out.println("secondValue = z = " + z);
-        }
+        }*/
 
+        if (s > x && s > y && s > z){
+            if (x > y && x > z) {
+                System.out.println("Second Value = x = " + x);
+            }
+        }
+        if (x > s && x > y && x > z) {
+            if (s > y && s > z) {
+                System.out.println("Second Value = s = " + s);
+            }
+        }
+        if (y > s && y > x && y > z) {
+            if (z > s && z > x) {
+                System.out.println("Second Value = z = " + z);
+            }
+        }
+        if (z > s && z > x && z > y) {
+            if (y > s && y > x) {
+                System.out.println("Second Value = y = " + y);
+            }
+        }
     }
 }
