@@ -49,9 +49,20 @@ public class Calculator {
         // String ch = scann.next(); // Получаем строку с консоли
 
         switch(ch){
-            case 1:
+            case '-':
                 System.out.println("result =" + (x - y));
                 break;
+            case '+':
+                System.out.println("result =" + (x + y));
+                break;
+            case '/':
+                System.out.println("result =" + (x / y));
+                break;
+            case '*' :
+                System.out.println("result =" + (x * y));
+                break;
+            default :
+                System.out.println("I don't know you");
 
         }
 
