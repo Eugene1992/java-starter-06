@@ -30,8 +30,5 @@ public class HW04 {
         for(int a = 0, d = 10; a < 100 || d < 20; a++, d = d + 2){
             System.out.println(d + " " + a);
         }
-
-
-
     }
 }
