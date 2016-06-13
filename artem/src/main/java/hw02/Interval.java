@@ -10,19 +10,6 @@ import static java.lang.System.in;
 public class Interval {
     public static void main(String[] args) {
 
-        Scanner scann = new Scanner(in);
-
-        final int x;
-        String s;
-
-        System.out.println("Enter your number: ");
-
-        x = scann.nextInt();
-
-
-
-
-
 
 /*        Задание 3
         Используя IntelliJ IDEA, создайте класс Interval.
@@ -30,6 +17,19 @@ public class Interval {
         промежуток [0 - 14) [14 - 35] (35 - 50] [50 - 100]. Если да, то укажите, в какой именно промежуток.
                 Если пользователь указывает число не входящее ни в один из имеющихся числовых промежутков, то
         выводится соответствующее сообщение.*/
+
+        int i = 45;
+        if (i < 14)
+            System.out.println(i + " Значение попадает в промежуток [0 - 14]");
+
+        if (i > 15 && i <= 35)
+            System.out.println(i + " Значение попадает в промежуток [14 - 35]");
+
+        if (i > 36 && i <= 50)
+            System.out.println(i + " Значение попадает в промежуток [35 - 50]");
+
+        if (i > 51 && i <= 100)
+            System.out.println(i + " Значение попадает в промежуток [50 - 100]");
 
 
     }
