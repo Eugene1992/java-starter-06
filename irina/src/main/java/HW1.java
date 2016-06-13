@@ -1,5 +1,5 @@
 
-public class hw1_Irina {
+public class HW1 {
     public static void main (String[] args)
     {
         // 1. Создать четыре целочисленные переменные типов byte, short, int, long.
