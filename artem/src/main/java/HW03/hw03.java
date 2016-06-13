@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Shpakovski on 09.06.2016.
  */
 public class HW03 {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
        /* Задание 1
         В три переменные a, b и c записаны три вещественных числа. Создать программу, которая
@@ -14,17 +14,18 @@ public class HW03 {
                 либо сообщать, что корней нет.*/
         System.out.println("Задание 1:");
 
-        double a, b, c;
+        double a, b, c, x;
         a = 3.1415;
         b = 1.618;
         c = 1.4142;
 
+        x = 123.45;
+
+        System.out.println("Квадратный корень уравнения ax²+bx+c=0 равен = " + (Math.sqrt(((a * x) * (a * x)) + (b * x) + c)));
 
 
-        System.out.println("Задание 4");
-
+        System.out.println("\nЗадание 4");
 /*
-
         Задание 4
         Ииспользуя цикл for, вывести на экран все числа от 0 до 1000, которые деляться нацело на 3.
 */
@@ -33,9 +34,7 @@ public class HW03 {
                 System.out.println(i);
         }
 
-
-
-
-
     }
+
 }
+
