@@ -1,9 +1,9 @@
-package hw1;
+package hw;
 
 /**
  * Created by Irinka on 08.06.2016.
  */
-public class hw2_Irina {
+public class HW2 {
     public static void main (String[] args)
     {
         /*Задание 2
