@@ -8,6 +8,7 @@ public class HW05 {
         toReturnRows(10, "Cubalibre");
         getNewSequense(1000, 1030, 3);
         toSequenseRows(55);
+        getReturnBack(1, 5);
     }
     public static void toReturnRows(int start, String str){
         for(int i = 0; i < start; i++){
@@ -27,5 +28,15 @@ public class HW05 {
         for(int i = 1; i < cat; i= i + 2){
             System.out.println(i +" ");
         }
+    }
+    /*Метод принимает два числа, начало и конец интервала и возвращает сумму всех чисел в этом интервале*/
+
+    public static int getReturnBack(int start, int end){
+        for( int i = start; i < end; i = start+2+3+4){
+            System.out.println(i);
+
+
+        }
+
     }
 }
