@@ -9,15 +9,15 @@ public class HW04 {
         int i = 281;
         String result = "";
         while (true){
-            if(i == 1)
+            if(i <= 7)
             {
-                result = 1 + result;
+                result = i + result;
                 break;
             }
                result = i % 8 + result;
             i = i / 8;
         }
-        System.out.println(result);
+        System.out.println("i =" + result);
 
         /*Создайте программу, выводящую на экран первые 55 элементов последовательности 1 3 5 7 9 11 13 15 17 ….*/
 

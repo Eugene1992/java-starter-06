@@ -37,5 +37,15 @@ public class NewClass {
         System.out.println("Orel = " + orel);
         System.out.println("Rezhka = " + rezhka);
 
+        /*  13. 06 Создайте программу, выводящую на экран все четырёхзначные числа последовательности
+         1000 1003 1006 1009 1012 1015 ….*/
+
+
+        for (int j = 1000; j < 10000; j = j + 3){ // i++ = i = i + 1
+            System.out.print(j + " ");
+        }
+
+
+
     }
 }
