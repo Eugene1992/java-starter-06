@@ -46,13 +46,16 @@ public class HW04 {
 
         // 5. Выведите на экран первые 20 членов последовательности Фибоначчи.
 
-        int fibonacci;
-        int f0 = 0, f1 = 1;
-        for (int p = 1; p <= 20; p++){
-            while (p <= 20) break; {
-                System.out.println();
-            }
+        int f0 = 0;
+        int f1 = 1;
+        int f2 = f0 + f1;
+
+        for (int i = 0; i < 20; i++) {
+
+            System.out.println(f0 + " " + f1 + " ");
         }
+
+
     }
 
 }
