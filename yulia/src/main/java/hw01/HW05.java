@@ -32,11 +32,11 @@ public class HW05 {
     /*Метод принимает два числа, начало и конец интервала и возвращает сумму всех чисел в этом интервале*/
 
     public static int getReturnBack(int start, int end){
-        for( int i = start; i < end; i = start+2+3+4){
-            System.out.println(i);
-
-
+        int  sum = 0;
+        for( int i = start; i < end; i = start++){
+            sum = sum + start;
         }
+        return sum;
 
     }
 }
