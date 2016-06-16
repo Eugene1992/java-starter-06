@@ -10,7 +10,7 @@ public class HW05 {
 
         // 1. Вывести в консоль все парные числа одномерного массива
 
-        int[] arr = new int[]{2, 4, 9, 12, 66, 321, 67, 88, 2, 123, 67};
+        int[] arr = new int[]{2, 4, 9, 12, 66, 321, 67, 88, 2, 123};
         printPairNumbers(arr);
 
         System.out.println("\nЗадание 2: ");
@@ -32,10 +32,17 @@ public class HW05 {
 
         halfMassiveBackward(backArray);
 
-        // 5. Найти сумму все элементов в массиве
+        // 5. Найти сумму всех элементов в массиве
 
         System.out.println("\nExercise 5: ");
 
+        sumMassive(arr);
+
+        System.out.println("\nExercise 6:" + " ");
+
+        // 6. Найти среднеарифметическое всех чисел массива
+
+        aveMas(arr);
     }
 
     static void printNubersBackward(int[] array){
@@ -86,6 +93,22 @@ public class HW05 {
         for (int i = array.length / 2; i > 0; i--) {
             System.out.print(array[i] + " ");
         }
+    }
+
+    public static void sumMassive (int[] array){
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array [i];
+        }
+        System.out.print(sum);
+    }
+
+    public static void aveMas (int [] array){
+        int ave = 0;
+        for (int i = 0; i < array.length ; i++) {
+            ave = (ave + array[i]) / ;
+        }
+        System.out.println(ave);
     }
 }
 
