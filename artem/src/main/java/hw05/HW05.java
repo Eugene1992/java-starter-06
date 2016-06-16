@@ -20,9 +20,21 @@ public class HW05 {
         int[] backArray = {3, 5, 7, 8, 34, 23423, 564, 6785, 4211, 78, 234, 123, 321, 4};
         printNubersBackward(backArray);
 
+        System.out.println("\nExercise 3: ");
+
         // 3. Вывести первую и вторую половину одномерного массива
 
+        halfMassive(backArray);
 
+        // 4. Вывести первую и вторую половину одномерного массива в обратном порядке
+
+        System.out.println("\nExercise 4: ");
+
+        halfMassiveBackward(backArray);
+
+        // 5. Найти сумму все элементов в массиве
+
+        System.out.println("\nExercise 5: ");
 
     }
 
@@ -48,6 +60,33 @@ public class HW05 {
             }*/
         }
 
+    public static void halfMassive (int[] array){
+        System.out.print("First half of Massive = ");
+       for (int i = 0; i < array.length / 2; i++){
+           System.out.print(array[i] + " ");
+       }
+        System.out.print("\nSecond half of Massive = ");
+        for (int i = array.length / 2; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+
+/*        for (int i = 0; i < array.length ; i++) {
+            if(i < array.length / 2){
+                System.out.print(array[i] + " ");
+                break;*/
+
+            }
+
+    public static void halfMassiveBackward (int [] array){
+        System.out.print("First half of Massive = ");
+        for (int i = array.length - 1; i > array.length / 2; i--){
+            System.out.print(array[i] + " ");
+        }
+        System.out.print("\nSecond half of Massive = ");
+        for (int i = array.length / 2; i > 0; i--) {
+            System.out.print(array[i] + " ");
+        }
+    }
 }
 
 
