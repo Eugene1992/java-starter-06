@@ -3,16 +3,16 @@ package hw;
 public class HW5 {
     public static void main(String[] args) {
 
-        int [] arr = new int[]{110, -28, 79, -21, -88, 29, 30, 66, 78, 29, 30, 66};
-        getArray(arr);
+        int [] arr = new int[]{};
+        /*getArray(arr);
         getArrayFromTheEnd(arr);
         getHalfArray(arr);
         getHalfFromTheEnd(arr);
         getSum(arr);
-        getAverage(arr);
+        getAverage(arr);*/
         getMinAndMaxValue(arr);
-        getReplaceOnZiro(arr);
-        getSameNumbers(arr);
+        /*getReplaceOnZiro(arr);
+        getSameNumbers(arr);*/
 
 
     }
@@ -94,8 +94,8 @@ public class HW5 {
         for (int i = 0; i < arr.length ; i++) {
 
             sum = sum + arr [i];
-            average = sum / arr.length;
         }
+        average = sum / arr.length;
         System.out.print(average);
         System.out.println();
     }
@@ -104,6 +104,10 @@ public class HW5 {
     //???????????????????????????????????????????????????
     //???????????????????????????????????????????????????
     public static void getMinAndMaxValue (int [] arr){
+        if (arr.length == 0) {
+            System.out.println("Empty array");
+            return;
+        }
         int min = arr [0];
         for (int i = 0; i < arr.length ; i++) {
             if (min > arr [i]) {
@@ -132,9 +136,9 @@ public class HW5 {
         for (int i = 0; i < arr.length ; i++) {
 
             if (arr [i] < 0){
-                arr [i] =0;
+                arr [i] = 0;
             }
-            System.out.print(arr [i] + " ");
+            System.out.print(arr[i] + " ");
             System.out.println();
         }
     }
