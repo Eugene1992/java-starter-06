@@ -12,6 +12,9 @@ public class HW06 {
         //getNewNamArray(arr);
         //findSumOfArray(arr);
         getAverageNamOfArray(arr);
+        getMinAndMaxNamOfArray (arr);
+        getChangeToZero (arr);
+        getSameNanOfArray (arr);
 
     }
 
@@ -68,6 +71,46 @@ public class HW06 {
         }
         System.out.println(sum / array.length);*/
         System.out.println("average = " + findSumOfArray(array) / array.length);
+    }
+    /* Найти минимальное и максимальное число в массиве*/
+
+     public static void getMinAndMaxNamOfArray (int[] array){
+         int min = array[0];
+         for( int i = 0; i < array.length; i++){
+             if(min > array[i]){
+                 min = array[i];
+             }
+         }
+         System.out.print("Min-" + min);
+         System.out.println();
+
+         int max = array[0];
+         for(int i = 0; i < array.length; i++){
+             if(max < array[i]){
+                 max = array[i];
+             }
+         }
+         System.out.print("Max -" + max);
+         System.out.println();
+     }
+    /*Заменить все отрицательные числа в массиве на 0*/
+
+    public static void getChangeToZero (int[] arr){
+        for(int i = 0; i < arr.length; i++){
+            if (arr[i] > 0){
+                arr[i] = 0;
+            }
+            System.out.println(arr[i]);
+        }
+    }
+    /*Подсчитать одинаковые числа в одномерном массиве*/
+
+    public static void getSameNanOfArray (int[] arr){
+        int a = 0;
+        for (int i = 0; i < arr.length; i++){
+
+        }
+
     }
 
 
