@@ -106,10 +106,16 @@ public class HW06 {
     /*Подсчитать одинаковые числа в одномерном массиве*/
 
     public static void getSameNanOfArray (int[] arr){
-        int a = 0;
+        int num = 0;
         for (int i = 0; i < arr.length; i++){
-
+            for (int a = 0; a < arr.length; a++){
+                num++;
+            }
+            num--;
         }
+        num = num / 2;
+        System.out.print(num);  /* не поняла */
+
 
     }
 
