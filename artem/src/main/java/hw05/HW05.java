@@ -30,6 +30,10 @@ public class HW05 {
         System.out.println("\nExercise 6:" + " ");
 
         aveMas(arr);
+
+        System.out.println("\nExercise 7:" + " ");
+
+
     }
 
     // 1. Вывести в консоль все парные числа одномерного массива
@@ -107,10 +111,17 @@ public class HW05 {
         int sum = 0;
         for (int i = 0; i < array.length ; i++) {
             sum = sum + array[i];
-            ave = sum / ;
+            //ave = sum / ;
         }
-        System.out.println(ave);
+        System.out.println(sum / array.length);
     }
+
+    // 7. Найти минимальное и максимальное число в массиве
+    
+    public static void minAndMax (int[] array){
+       // for (int i = 0; i < ; i++) {
+            
+        }
 }
 
 
