@@ -8,31 +8,20 @@ public class HW05 {
 
         System.out.println("Задание 1: ");
 
-        // 1. Вывести в консоль все парные числа одномерного массива
-
         int[] arr = new int[]{2, 4, 9, 12, 66, 321, 67, 88, 2, 123};
         printPairNumbers(arr);
 
         System.out.println("\nЗадание 2: ");
 
-        // 2. Вывести все числа одномерного массива в обратном порядке
-
-        int[] backArray = {3, 5, 7, 8, 34, 23423, 564, 6785, 4211, 78, 234, 123, 321, 4};
-        printNubersBackward(backArray);
+        printNubersBackward(arr);
 
         System.out.println("\nExercise 3: ");
 
-        // 3. Вывести первую и вторую половину одномерного массива
-
-        halfMassive(backArray);
-
-        // 4. Вывести первую и вторую половину одномерного массива в обратном порядке
+        halfMassive(arr);
 
         System.out.println("\nExercise 4: ");
 
-        halfMassiveBackward(backArray);
-
-        // 5. Найти сумму всех элементов в массиве
+        halfMassiveBackward(arr);
 
         System.out.println("\nExercise 5: ");
 
@@ -40,16 +29,18 @@ public class HW05 {
 
         System.out.println("\nExercise 6:" + " ");
 
-        // 6. Найти среднеарифметическое всех чисел массива
-
         aveMas(arr);
     }
+
+    // 1. Вывести в консоль все парные числа одномерного массива
 
     static void printNubersBackward(int[] array){
         for (int i = array.length - 1; i > 0; i--) {
             System.out.print(array[i] + " ");
         }
     }
+
+    // 2. Вывести все числа одномерного массива в обратном порядке
 
     public static void printPairNumbers(int[] array){
 
@@ -66,6 +57,8 @@ public class HW05 {
                 System.out.print(num + " ");
             }*/
         }
+
+    // 3. Вывести первую и вторую половину одномерного массива
 
     public static void halfMassive (int[] array){
         System.out.print("First half of Massive = ");
@@ -84,6 +77,8 @@ public class HW05 {
 
             }
 
+    // 4. Вывести первую и вторую половину одномерного массива в обратном порядке
+
     public static void halfMassiveBackward (int [] array){
         System.out.print("First half of Massive = ");
         for (int i = array.length - 1; i > array.length / 2; i--){
@@ -95,6 +90,8 @@ public class HW05 {
         }
     }
 
+    // 5. Найти сумму всех элементов в массиве
+
     public static void sumMassive (int[] array){
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
@@ -103,10 +100,14 @@ public class HW05 {
         System.out.print(sum);
     }
 
+    // 6. Найти среднеарифметическое всех чисел массива
+
     public static void aveMas (int [] array){
         int ave = 0;
+        int sum = 0;
         for (int i = 0; i < array.length ; i++) {
-            ave = (ave + array[i]) / ;
+            sum = sum + array[i];
+            ave = sum / ;
         }
         System.out.println(ave);
     }
