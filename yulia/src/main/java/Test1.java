@@ -17,10 +17,11 @@ public class Test1 {
 
         System.out. println(c1.getSumQuantity (carses));
         System.out.println(c1.getMinAge (carses));
+
         System.out.println(c1.getModel());
+        for (Cars cars : carses){
 
-
-
+        }
 
     }
 }
