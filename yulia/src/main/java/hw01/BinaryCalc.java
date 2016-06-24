@@ -1,8 +1,5 @@
 package hw01;
 
-/**
- * Created by Student on 6/13/2016.
- */
 public class BinaryCalc {
     public static void main(String[] args) {
         int v = 6;
