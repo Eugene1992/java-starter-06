@@ -4,7 +4,7 @@ package hw;
  * Created by Irinka on 13.06.2016.
  */
 public class HW4 {
-    public static void main(StringClass[] args) {
+    public static void main(StringUnit[] args) {
         /*1. Создайте программу, выводящую на экран все четырёхзначные числа последовательности 1000 1003 1006 1009 1012 1015 ….*/
 
         for (int i = 1000; i < 10000; i += 3){
