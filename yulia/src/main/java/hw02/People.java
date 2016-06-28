@@ -17,7 +17,7 @@ public class People {
 
     public void makeFood() {System.out.println("People like to eat");}
 
-    public void somePeopleMethod() {System.out.println();}
+    public void somePeopleMethod() {System.out.println("All people like to eat well!");}
 
 
 

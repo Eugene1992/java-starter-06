@@ -5,11 +5,13 @@ package hw02;
  */
 public class Men extends People {
 
-    private String menSpecislFiled;
+    private String menSpecialFiled;
 
-    public Men (String name, String menSpecislFiled){
+    public Men (String name, String menSpecialFiled){
         super(name);
-        this.menSpecislFiled = menSpecislFiled;
+        this.menSpecialFiled = menSpecialFiled;
+
+        System.out.println("Men" + super.getName() + " bye ");
     }
 
 

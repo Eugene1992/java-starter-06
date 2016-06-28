@@ -10,11 +10,11 @@ public class Woman extends People {
     public Woman (String name, String womanSpecialFiled){
         super(name);
         this.womanSpecialFiled = womanSpecialFiled;
+
+        System.out.println("Woman" +  super.getName() + "\n" + "Hello");
     }
-    @Override
 
 
-
-
+    public void makeSomeWomanThings() {System.out.println("I want to the sea");}
 
 }
