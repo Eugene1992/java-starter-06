@@ -22,6 +22,13 @@ public class Test02 {
         men.getMenSpecialFiled();
         men.print();
 
+        Children children1 = new Children("Tom", "cute");
+        children1.makeFood();
+        children1.somePeopleMethod();
+
+
+
+
     }
 
 }

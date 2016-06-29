@@ -7,8 +7,6 @@ public class Men extends People {
 
     private String menSpecialFiled;
     private String menSpecialFiled1;
-    private String menSpecialFiled2;
-    private String menSpecialFiled3;
 
     public Men (String name, String menSpecialFiled){
         super(name);
