@@ -6,10 +6,11 @@ public class ProductsShop extends Scopes {
     public String nameProduct;
     public int price;
 
-    public ProductsShop(){
+    public ProductsShop() {
 
     }
-    public ProductsShop(String name, String nameProduct, int price){
+
+    public ProductsShop(String name, String nameProduct, int price) {
         super(name);
         this.nameProduct = nameProduct;
         this.price = price;
@@ -20,8 +21,8 @@ public class ProductsShop extends Scopes {
         System.out.println("Him price " + price);
     }
 
-
-    public void someMetod2(String metod){
+    @Override
+    public void someMetod2(String metod) {
         System.out.println("Бухать вредно!!!!");
 
     }

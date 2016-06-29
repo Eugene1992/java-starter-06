@@ -18,7 +18,5 @@ public class Test_Scopes {
         metod2.someMetod2("");
 
 
-
-
     }
 }
