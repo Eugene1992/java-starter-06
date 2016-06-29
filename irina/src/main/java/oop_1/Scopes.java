@@ -25,8 +25,8 @@ public class Scopes {
         System.out.println(metod);
 
     }
-    public void someMetod2(String metod){
-        System.out.println(metod);
+    public void someMetod2(String metod2){
+        System.out.println(metod2);
     }
 
 
