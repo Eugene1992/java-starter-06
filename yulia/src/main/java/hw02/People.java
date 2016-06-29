@@ -1,16 +1,13 @@
 package hw02;
 
-/**
- * Created by admin on 28.06.2016.
- */
 public class People {
 
     private String name;
 
-    public People(){
+    public People() {
     }
 
-    public People (String name) {
+    public People(String name) {
         this.name = name;
     }
 
@@ -18,7 +15,7 @@ public class People {
         return name;
     }
 
-    public void setName (String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
