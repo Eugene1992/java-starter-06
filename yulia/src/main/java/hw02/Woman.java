@@ -5,16 +5,16 @@ package hw02;
  */
 public class Woman extends People {
 
-    private String womanSpecialFiled;
+    private String womanSpecialField;
 
-    public Woman (String name, String womanSpecialFiled){
+    public Woman(String name, String womanSpecialField) {
         super(name);
-        this.womanSpecialFiled = womanSpecialFiled;
+        this.womanSpecialField = womanSpecialField;
 
-        System.out.println("Woman" +  super.getName() + "\n" + "Hello");
+        System.out.println("Woman" + "\b" + super.getName() + "\b" + "Hello");
     }
 
-
-    public void makeSomeWomanThings() {System.out.println("I want to the sea");}
-
+    public void makeSomeWomanThings() {
+        System.out.println("I want to the sea");
+    }
 }
