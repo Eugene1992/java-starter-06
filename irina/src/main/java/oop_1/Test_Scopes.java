@@ -3,6 +3,9 @@ package oop_1;
 
 public class Test_Scopes {
 
+    public Test_Scopes() {
+    }
+
     public static void main(String[] args) {
 
         LiquorStore liquor = new LiquorStore();
