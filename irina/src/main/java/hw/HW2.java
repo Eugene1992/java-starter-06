@@ -4,7 +4,7 @@ package hw;
  * Created by Irinka on 08.06.2016.
  */
 public class HW2 {
-    public static void main (StringClass[] args)
+    public static void main (StringUnit[] args)
     {
         /*Задание 2
         Создать программу, проверяющую и сообщающую на экран, является ли  целое число, чётным либо нечётным.*/

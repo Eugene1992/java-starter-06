@@ -1,7 +1,7 @@
 package hw;
 
 public class HW5 {
-    public static void main(StringClass[] args) {
+    public static void main(StringUnit[] args) {
 
         int [] arr = new int[]{100, -23, 63, 0, -78, 66, 89, 100, 27, -27, 44};
         /*getArray(arr);
