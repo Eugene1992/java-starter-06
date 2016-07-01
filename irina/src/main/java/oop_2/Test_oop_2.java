@@ -12,8 +12,8 @@ public class Test_oop_2 {
         Eugeniy eugeniy = new Eugeniy();
 
 
-        customers.setName("Жека Красавец");
-        customers.printName("");
+        customers.setName("Ирина");
+        customers.printName();
         //irina.setName("Yulia");
         //irina.printIrina();
 

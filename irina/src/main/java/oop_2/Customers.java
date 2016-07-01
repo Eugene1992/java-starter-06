@@ -20,9 +20,9 @@ public class Customers {
     public void setName(String name) {
         this.name = name;
     }
-    public void printName(String name){
-        System.out.println("Мой любимый муж " + getName());
 
+    public void printName(){
+        System.out.println("Customer " + name);
     }
 
 }
