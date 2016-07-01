@@ -15,7 +15,8 @@ public class Irina extends Customers {
         this.age = age;
 
     }
+
     public void printIrina(){
-        System.out.println();
+        super.printName();
     }
 }
