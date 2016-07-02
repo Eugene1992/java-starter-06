@@ -23,6 +23,11 @@ public class Human {
         }
         return sum / humans.length;
     }
+
+    @Override
+    public String toString() {
+        return name + " " + gender + " " + age;
+    }
 }
 
 

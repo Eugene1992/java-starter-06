@@ -19,7 +19,7 @@ public class Test {
 
         Human[] humans = new Human[]{h1, h2, h3, h4, h5};
 
-        System.out.println(h4.getAverageAge(humans));
+        System.out.println(h1);
 
     }
 
