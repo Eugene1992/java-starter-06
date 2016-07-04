@@ -14,18 +14,6 @@ public class Test {
         insects2.Run();
         insects3.Color();
 
-        Insects insects4 = new Beetle( " new") {
-            @Override
-            public void Fly() {System.out.println();
-            }
-            @Override
-            protected void Color() {System.out.println();
-            }
-            @Override
-            public void Run() {System.out.println();
-
-            }
-        }
 
 
     }
