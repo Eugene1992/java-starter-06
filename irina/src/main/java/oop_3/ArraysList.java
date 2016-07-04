@@ -1,12 +1,13 @@
 package oop_3;
 
 import java.util.ArrayList;
-
+import java.util.LinkedList;
+import java.util.List;
 
 
 public class ArraysList {
     public static void main(String[] args) {
-        ArrayList <Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new LinkedList<>();
         arrayList.add(21);
         arrayList.add(123);
         arrayList.add(210);
