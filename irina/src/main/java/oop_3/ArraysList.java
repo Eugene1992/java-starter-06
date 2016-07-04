@@ -39,6 +39,10 @@ public class ArraysList {
         arrayList1.remove(4);
         System.out.println(arrayList);
         System.out.println(arrayList1);
+        System.out.println(arrayList.get(3));
+        System.out.println(arrayList1);
+        System.out.println(arrayList1.set(1, "hgfhg"));
+        System.out.println(arrayList1);
 
     }
 
