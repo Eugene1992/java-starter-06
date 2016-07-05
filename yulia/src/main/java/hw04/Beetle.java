@@ -5,5 +5,13 @@ package hw04;
  */
 public abstract class Beetle extends Insects {
 
-    public Beetle (String name) { super(name);}
+
+    public Beetle(String name) {
+        super(name);
+    }
+
+    protected Beetle() {
+    }
+
+    public abstract void beetleMethod();
 }

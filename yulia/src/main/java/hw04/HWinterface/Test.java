@@ -6,11 +6,13 @@ public class Test {
 
         Car car = new Car(10, 30);
         Horse horse = new Horse(5);
-        Car car1 = new Car(100, 56);
+        Car car1 = new Car(56, 100);
 
-       System.out.print(car.countDistanse(2, car));
+       System.out.println(car.countDistanse(2, car));
        System.out.println(horse.countDistanse(5, horse));
        System.out.println(car1.countWeight(300, car1));
+
+       GodsBug godsBug = new GodsBug();
 
 
     }

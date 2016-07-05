@@ -9,14 +9,13 @@ public class Car implements Libra, Range {
     public Car(int speed, int mas) {
         this.speed = speed;
         this.mas = mas;
-
     }
 
     public int getSpeed() {
         return speed;
     }
 
-    public int getDistanse ( int hourse){
+    public int getDistanse (int hourse){
         return speed * hourse;
     }
 

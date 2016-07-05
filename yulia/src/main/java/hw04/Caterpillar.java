@@ -2,14 +2,22 @@ package hw04;
 
 public class Caterpillar extends Insects {
 
-    public Caterpillar (String name) { super(name);}
+    public Caterpillar(String name) {
+        //super(name);
+    }
 
     @Override
-    public void Run() {System.out.println(super.getName() + " gggg");}
+    public void run() {
+        System.out.println(super.getName() + " gggg");
+    }
 
     @Override
-    public void Fly() {System.out.println(super.getName() + " not fly");}
+    public void fly() {
+        System.out.println(super.getName() + " not fly");
+    }
 
     @Override
-    public void Color() {System.out.println(super.getName() + "green");}
+    public void color() {
+        System.out.println(super.getName() + "green");
+    }
 }

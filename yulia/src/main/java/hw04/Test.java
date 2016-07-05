@@ -10,9 +10,9 @@ public class Test {
 
         Insects insects3 = new Caterpillar( " green ");
 
-        insects1.Fly();
-        insects2.Run();
-        insects3.Color();
+        insects1.fly();
+        insects2.run();
+        insects3.color();
 
 
 
