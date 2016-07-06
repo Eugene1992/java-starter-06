@@ -41,6 +41,5 @@ public class CheckedExxepExample {
         } else {
             System.out.println(age);
         }
-
     }
 }
